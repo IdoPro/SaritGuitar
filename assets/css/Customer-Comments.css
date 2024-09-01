@@ -1,0 +1,59 @@
+/* Customer Comments Section */
+
+.comments-section {
+  background-color: var(--background-color);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.comments-section h2 {
+  color: var(--primary-color);
+  font-size: 6rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.comment {
+  background-color: white;
+  border: 1px solid var(--accent-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.comment p {
+  color: var(--text-color);
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.comment .author {
+  color: var(--secondary-color);
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+.comment .date {
+  color: var(--muted-text-color);
+  font-size: 6.9rem;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .comment {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .comments-section h2 {
+    font-size: 7.5rem;
+  }
+}
+

@@ -1,0 +1,53 @@
+/* Footer Styling */
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer h3 {
+  color: var(--background-color);
+  font-size: 6rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+footer p {
+  color: var(--background-color);
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+footer a {
+  color: var(--background-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--highlight-color);
+}
+
+footer .social-media {
+  margin: 20px 0;
+}
+
+footer .social-media a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+footer .social-media img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+footer .copyright {
+  margin-top: 20px;
+  font-size: 1.9rem;
+  color: var(--muted-text-color);
+}
+
